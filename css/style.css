@@ -1,0 +1,43 @@
+.container{
+    width:75%;
+}
+.upper-wrapper {
+    width:100%;
+    display: inline-block;
+}
+.lower-wrapper{
+    background-color: #f0f2f4;
+    height:175px;
+}
+.lb {
+    /*border: solid 1px greenyellow;*/
+    min-height: 300px;
+    text-align: center;
+}
+
+.rb {
+    /*border: solid 1px #4ed6ff;*/
+    min-height: 300px;
+    margin-top: 25px;
+}
+
+.prof-pic {
+    background: url("../img/unknown.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.cv-btn {
+    background-color: #FF1493;
+    color: #fff;
+}
+.progress{
+
+    width: 51%;
+    float: right;
+    margin-right: 55px;
+}
+.progress-bar{
+
+    background-color: #1FC1C1;
+}
