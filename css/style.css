@@ -1,13 +1,29 @@
+body{
+
+    background: url(../img/comp-bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100Vh;
+}
 .container{
-    width:75%;
+    width:85%;
+    /*background-color: #000;*/
+    color: #ffffff;
+
 }
 .upper-wrapper {
     width:100%;
     display: inline-block;
+    /*background-color: #1FC1C1;*/
+
+}
+.upper-wrapper h1{
+    color: #8FC300;
 }
 .lower-wrapper{
-    background-color: #f0f2f4;
-    height:175px;
+    /*background-color: #f0f2f4;*/
+    display: inline-block;
+    width: 100%;
 }
 .lb {
     /*border: solid 1px greenyellow;*/
@@ -22,14 +38,22 @@
 }
 
 .prof-pic {
-    background: url("../img/unknown.png");
-    background-size: 100% 100%;
+    background: url(../img/unknown.png);
+    background-size: contain;
     background-repeat: no-repeat;
+    background-position: center;
+    border: solid 9px #8FC300;
+    border-radius: 50%;
+
+
 }
 
 .cv-btn {
-    background-color: #FF1493;
-    color: #fff;
+    background-color:  #8FC300;
+   color:#fff;
+}
+.cv-btn:hover{
+    background-color: #61c311;
 }
 .progress{
 
@@ -38,6 +62,15 @@
     margin-right: 55px;
 }
 .progress-bar{
+    width: 85%;
+    font-size: 17px;
+    font-weight: bold;
+    background-color: #8fc305;
+}
 
-    background-color: #1FC1C1;
+.footer-wrap{
+    /*background-color: #F58865;*/
+    /*background-color: #f0f2f4;*/
+    height: 175px;
+
 }
