@@ -9,7 +9,7 @@ body{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 90vh;
+    height: 100vh;
 
 }
 .border{
@@ -95,7 +95,12 @@ body{
 
 }
 footer{
-    background: #203345;
+    background: #13293e7d;
     color: #fff;
     text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    font-size: 10px;
+    padding:4px;
 }
