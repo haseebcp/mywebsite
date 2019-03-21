@@ -1,15 +1,35 @@
 body{
 
-    background: url(../img/comp-bg.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 100Vh;
+    height: 100%;
+    margin: 0;
+    font: 400 15px/1.8 "Lato", sans-serif;
 }
-.container{
-    width:85%;
-    /*background-color: #000;*/
-    color: #ffffff;
+.container-wrap{
+    background: url(../img/comp-bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 90vh;
 
+}
+.border{
+    /*background-color: #111;*/
+    color: #fff;
+    padding: 18px;
+    font-size: 25px;
+    letter-spacing: 10px;
+    /*box-shadow: 3px 3px 3px 3px;*/
+    border-radius: 10px;
+    box-shadow: 3px 3px 3px 3px #2b7ca2b0;
+}
+
+.caption{
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: #000;
 }
 .upper-wrapper {
     width:100%;
@@ -73,4 +93,9 @@ body{
     /*background-color: #f0f2f4;*/
     height: 175px;
 
+}
+footer{
+    background: #203345;
+    color: #fff;
+    text-align: center;
 }
