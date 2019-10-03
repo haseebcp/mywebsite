@@ -29,7 +29,9 @@
                 if (args.member) {
 
                     / Your custom code goes here /
-                    localStorage.setItem('memeberdetails',JSON.stringify(args.member))
+                    localStorage.setItem('memeberdetails',JSON.stringify(args.member));
+                    document.cookie='memeberdetails =' + JSON.stringify(args.member);
+                        ''
                 }
             });
         }());
