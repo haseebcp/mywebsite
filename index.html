@@ -28,7 +28,7 @@
             MemberSpace.onReady.push(function(args) {
                 if (args.member) {
                     / Your custom code goes here /
-                    localStorage.setItem('memeberdetails',args.member)
+                    localStorage.setItem('memeberdetails',JSON.stringify(args.member))
                 }
             });
         }());
