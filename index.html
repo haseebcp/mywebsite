@@ -27,6 +27,7 @@
             MemberSpace.onReady = MemberSpace.onReady || [];
             MemberSpace.onReady.push(function(args) {
                 if (args.member) {
+                    console.log(args)
                     / Your custom code goes here /
                     localStorage.setItem('memeberdetails',JSON.stringify(args.member))
                 }
