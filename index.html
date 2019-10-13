@@ -37,21 +37,7 @@
 
     <!-- Latest compiled JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
-    <script>
-        var MemberSpace = window.MemberSpace || {subdomain: "haseebcp"};(function(d){var s = d.createElement("script");s.src = "https://cdn.memberspace.com/scripts/widgets.js";            var e = d.getElementsByTagName("script")[0];e.parentNode.insertBefore(s,e);           }(document));
-
-        (function() {
-            MemberSpace.onReady = MemberSpace.onReady || [];
-            MemberSpace.onReady.push(function(args) {
-                if (args.member) {
-
-                    / Your custom code goes here /
-                    localStorage.setItem('memeberdetails',JSON.stringify(args.member));
-                    document.cookie='memeberdetails =' + JSON.stringify(args.member);
-                }
-            });
-        }());
-    </script>
+   
     <link rel="icon" type="image/x-icon" href="favicon.ico">
 </head>
 <body>
